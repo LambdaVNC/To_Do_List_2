@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 8rem;
+}
+
+.container .header #ekleBtn {
+  position: absolute;
+  margin-left: 10px;
+  padding: 5px 15px;
+  height: auto;
+  border: none;
+  border-radius: 0px 15px;
+  background-image: linear-gradient(to bottom right, #0096ff, #c2f8f8);
+  margin-top: 2px;
+  transition: all .4s;
+}
+.container .header #ekleBtn:hover {
+    transform: scale(1.1);
+}
+.container .header #ekleBtn i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.header input {
+  padding: 10px;
+  border: 1px solid #0096ff;
+  box-shadow: 0 0 15px #00d7ff;
+  border-radius: 15px;
+  background-color: #e4ffff;
+  width: 400px;
+  transition: all .3s;
+}
+
+.gorev-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------  Lİ ELEMANLARI --------------- */
+
+.container .gorev-container .gorev-listesi li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  border: 1px solid #00d7ff;
+  list-style-type: none;
+  padding: 15px;
+  border-radius: 15px;
+  width: 500px;
+}
+
+.container .gorev-container .gorev-listesi li .list-icons #list-icon {
+  margin: auto 5px;
+  font-size: 20px;
+  color: green;
+  cursor: pointer;
+}
+
+.done{
+  background-color: #c9c9c9;
+  text-decoration:line-through;
+}
